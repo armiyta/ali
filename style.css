@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #050505;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+.intro {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.symbol {
+    font-size: 35px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+.intro h1 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.intro p {
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #999;
+}
+.line {
+    width: 70px;
+    height: 1px;
+    background: #555;
+    margin: 35px 0;
+}
+.intro button {
+    background: transparent;
+    color: white;
+    border: 1px solid #555;
+    padding: 13px 38px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.intro button:hover {
+    background: white;
+    color: black;
+}
+.story {
+    width: 100%;
+    overflow: hidden;
+}
+.story-hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 25px;
+}
+.small title {
+    font-size: 11px;
+    letter-spacing: 6px;
+    color: #777;
+    margin-bottom: 35px;
+    direction: ltr;
+}
+.story-text {
+    max-width: 550px;
+    color: #999;
+    font-size: 16px;
+    line-height: 2.2;
+}
+.ending {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #666;
+    letter-spacing: 5px;
+    font-size: 11px;
+    direction: ltr;
+}
