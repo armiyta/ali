@@ -75,13 +75,21 @@ body {
 }
 .story-video {
     display: block;
-    width: 100%;
-    max-width: 320px;
-    max-height: 65vh;
-    height: auto;
+    width: 260px !important;
+    height: 260px !important;
+    max-width: 85vw !important;
+    max-height: 85vw !important;
     object-fit: contain;
     margin: 20px auto;
     border-radius: 15px;
+}
+@media (max-width: 600px) {
+    .story-video {
+        width: 240px !important;
+        height: 240px !important;
+        max-width: 85vw !important;
+        max-height: 85vw !important;
+    }
 }
 .small title {
     font-size: 11px;
